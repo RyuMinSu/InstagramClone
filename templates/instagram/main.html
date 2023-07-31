@@ -22,7 +22,7 @@
 <body>
 
 
-<nav class="navbar navbar-expand-lg bg-light" style="position:fixed; width:100%;">
+<nav class="navbar navbar-expand-lg" style="position:fixed; width:100%; background:white;">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1024px-Instagram_logo.svg.png" alt="" style="width:7rem;">
@@ -41,23 +41,156 @@
 <div style="display: flex; flex-direction: row; justify-content:center; padding-top: 5rem; background-color: #FAFAFA;">
   <div style="width: 600px; height: 1500px; background: white; margin-right: 278px;">
     <div style="border: solid 1px gray;">
+      
       <div style="margin: .5rem; display:flex; flex-direction: row; align-items: center;">
         <div style="width:3rem; height:3rem; border-radius: 70%; overflow:hidden;">
           <img src="https://i.ytimg.com/vi/0BdlwVBmmhM/maxresdefault.jpg" alt="" style="width:100%; height:100%; object-fit:cover;">
         </div>
         <div>
-          <p style="margin:0;">Name</p>
+          <p style="margin:0;">userNickName</p>
           <p style="margin:0;">Place</p>
         </div>
       </div>
-      <div>이미지</div>
-      <div>아이콘들</div>
-      <div>댓글들</div>
-      <div>댓글입력</div>
+      
+      <div>
+        <img src="https://youimg1.tripcdn.com/target/01042120008x0w1pa03EA_C_640_320_R5_Q70.jpg_.webp?proc=source%2Ftrip" alt="" style="width:100%">
+      </div>
+      
+      <div style="display:flex; flex-direction:row; justify-content:space-between; margin: 0.5rem">
+        <div>
+          <span class="material-symbols-outlined">favorite</span>
+          <span class="material-symbols-outlined">chat_bubble</span>
+          <span class="material-symbols-outlined">send</span>
+        </div>
+        <div><span class="material-symbols-outlined">bookmark</span></div>
+      </div>
+      <!--  좋아요    -->
+      <div style="text-align:left; font-size:12px; margin:.5rem;">춘식이 <b>외 18명</b>이 좋아합니다.</div>
+      <!--  내용   -->
+      <div style="text-align:left; font-size:16px; margin:.5rem;"><b>userNickName </b>어제 키르기스스스탄을 티비에서 보았어요.</div>
+      
+      <!--  댓글    -->
+      <div style="text-align:left; font-size:14px; margin:0 .5rem;"><b>userNickName1</b>키르기스스탄 가보고싶다...</div>
+      <div style="text-align:left; font-size:14px; margin:0 .5rem;"><b>userNickName2</b>그냥 다 때려치고 저기 나가서 말이나 키우면서 살고싶다....</div>
+      <div style="text-align:left; font-size:14px; margin:0 .5rem;"><b>userNickName3</b>때려친다하면 희진이가 화내게찌 낄낄</div>
+      
+      <form style="display:flex; flex-direction: row; justify-content:space-between; margin: 0 .5rem;">
+        <input type="text" placeholder="댓글입력" style="height:3rem; border:none;">
+        <button style="border: none; background:white;">게시</button>
+      </form>
     </div>
   </div>
-  <div style="width: 400px; height: 1500px; background-color: blue; position:fixed; left: 62%;">
-    right side
+  
+  <!-- rigth sector -->
+  <div style="width: 400px; height: 1500px; position:fixed; left: 62%;">
+   
+     <div style="margin: .5rem; display:flex; flex-direction: row; align-items: center; justify-content:space-between;">
+       <div style="display:flex; flex-direction:row;">
+         <div style="width:3rem; height:3rem; border-radius: 70%; overflow:hidden;">
+            <img src="https://i.ytimg.com/vi/0BdlwVBmmhM/maxresdefault.jpg" alt="" style="width:100%; height:100%; object-fit:cover;">
+         </div>
+         <div style="margin: 0 1rem;">
+            <p style="margin:0;">userNickName</p>
+            <p style="margin:0; color:gray; font-size:12px;">userName</p>
+         </div>
+       </div>
+       <button type="submit" style="border:none; background:none;">제출</button>
+     </div>
+     
+     <div style="display:flex; flex-direction: row; justify-content: space-between; margin: 1rem .5rem .5rem .5rem;">
+        <div style="color:gray;">
+          <b>회원님을 위한 추천</b>
+        </div>
+        <div>
+          <a href="" ><b>모두보기</b></a>
+        </div>
+     </div>
+     
+    <!-- 추천에 뜨는 애들   -->
+     <div style="margin: .5rem; display:flex; flex-direction: row; align-items: center; justify-content:space-between;">
+       <div style="display:flex; flex-direction:row;">
+         <div style="width:2.5rem; height:2.5rem; border-radius: 70%; overflow:hidden;">
+            <img src="https://ikakao1661.cafe24.com/images/fancy/kakao-pointsiliconpatch_NO_rep.jpg" alt="" style="width:100%; height:100%; object-fit:cover;">
+          </div>
+          <div style="margin: 0 1rem;">
+            <p style="margin:0; font-size:12px;">userNickName</p>
+            <p style="margin:0; color:gray; font-size:11px;">???명이 팔로우 합니다.</p>
+          </div>
+       </div>
+       <button type="submit" style="border:none; background:none;">팔로우</button>
+      </div>
+     <div style="margin: .5rem; display:flex; flex-direction: row; align-items: center; justify-content:space-between;">
+       <div style="display:flex; flex-direction:row;">
+         <div style="width:2.5rem; height:2.5rem; border-radius: 70%; overflow:hidden;">
+            <img src="https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/cnoC/image/v3_SEenfXbQr6eehmmxL6V8Ltf0" alt="" style="width:100%; height:100%; object-fit:cover;">
+          </div>
+          <div style="margin: 0 1rem;">
+            <p style="margin:0; font-size:12px;">userNickName</p>
+            <p style="margin:0; color:gray; font-size:11px;">???명이 팔로우 합니다.</p>
+          </div>
+       </div>
+       <button type="submit" style="border:none; background:none;">팔로우</button>
+      </div>
+     <div style="margin: .5rem; display:flex; flex-direction: row; align-items: center; justify-content:space-between;">
+       <div style="display:flex; flex-direction:row;">
+         <div style="width:2.5rem; height:2.5rem; border-radius: 70%; overflow:hidden;">
+            <img src="https://i.namu.wiki/i/xNDvmGKuWuiLth1LWmd7XbkZD94TZaqsBqntKORBVpsuspvaAlcCyrRFPRUW1QUfJqLgrthPTiHMbySK_syrsg.webp" alt="" style="width:100%; height:100%; object-fit:cover;">
+          </div>
+          <div style="margin: 0 1rem;">
+            <p style="margin:0; font-size:12px;">userNickName</p>
+            <p style="margin:0; color:gray; font-size:11px;">???명이 팔로우 합니다.</p>
+          </div>
+       </div>
+       <button type="submit" style="border:none; background:none;">팔로우</button>
+      </div>
+     <div style="margin: .5rem; display:flex; flex-direction: row; align-items: center; justify-content:space-between;">
+       <div style="display:flex; flex-direction:row;">
+         <div style="width:2.5rem; height:2.5rem; border-radius: 70%; overflow:hidden;">
+            <img src="https://t1.daumcdn.net/cfile/tistory/9925524A5D8A0D981F" alt="" style="width:100%; height:100%; object-fit:cover;">
+          </div>
+          <div style="margin: 0 1rem;">
+            <p style="margin:0; font-size:12px;">userNickName</p>
+            <p style="margin:0; color:gray; font-size:11px;">???명이 팔로우 합니다.</p>
+          </div>
+       </div>
+       <button type="submit" style="border:none; background:none;">팔로우</button>
+      </div>
+     <div style="margin: .5rem; display:flex; flex-direction: row; align-items: center; justify-content:space-between;">
+       <div style="display:flex; flex-direction:row;">
+         <div style="width:2.5rem; height:2.5rem; border-radius: 70%; overflow:hidden;">
+            <img src="https://www.ntdtv.kr/assets/uploads/2019/01/Screen-Shot-2019-01-08-at-4.31.55-PM-e1546932545978.png" alt="" style="width:100%; height:100%; object-fit:cover;">
+          </div>
+          <div style="margin: 0 1rem;">
+            <p style="margin:0; font-size:12px;">userNickName</p>
+            <p style="margin:0; color:gray; font-size:11px;">???명이 팔로우 합니다.</p>
+          </div>
+       </div>
+       <button type="submit" style="border:none; background:none;">팔로우</button>
+      </div>
+     <div style="margin: .5rem; display:flex; flex-direction: row; align-items: center; justify-content:space-between;">
+       <div style="display:flex; flex-direction:row;">
+         <div style="width:2.5rem; height:2.5rem; border-radius: 70%; overflow:hidden;">
+            <img src="https://i.namu.wiki/i/IUKpnzynPCMlkcs4qRLos3NAnwQu48KLCi7eUXFK0RDyRO1o4rgquRpH2iEJh6G4CGkiGglBWuDp04zsc4Cwww.webp" alt="" style="width:100%; height:100%; object-fit:cover;">
+          </div>
+          <div style="margin: 0 1rem;">
+            <p style="margin:0; font-size:12px;">userNickName</p>
+            <p style="margin:0; color:gray; font-size:11px;">???명이 팔로우 합니다.</p>
+          </div>
+       </div>
+       <button type="submit" style="border:none; background:none;">팔로우</button>
+      </div>
+    
+    <div style="color: darkgray; text-align:center; margin: 2rem 0;">
+      <span ">소개</span> |
+      <span>도움말</span> |
+      <span>홍보센터</span> |
+      <span>API</span> |
+    </div>
+    
+    <div style="color: darkgray; text-align:center;">
+      INSTAGRAM FROM FACEBOOK
+    </div>
+    
   </div>
 </div>
 
